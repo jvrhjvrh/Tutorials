@@ -3,6 +3,7 @@ head{
 }
 .container{
   display:flex;
+
 }
 h1{
   margin-left: auto;
@@ -11,10 +12,15 @@ h1{
   font-family: 'Courier New', Courier, monospace;
   background-color: aqua;
 }
-img{
-  display:inline;
+.ImageStyle{
+
+  max-height: 30vw;
+  min-height: 35vw;
+  max-width:35vw;
+  min-width: 30vw;
+  
 }
 p{
   display: inline;
-  background-color: burlywood
+  background-color: burlywood;
 }
