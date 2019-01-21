@@ -21,6 +21,11 @@ h1{
   
 }
 p{
-  display: inline;
+  text-align: center;
   background-color: burlywood;
+}
+.cardHolder{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
