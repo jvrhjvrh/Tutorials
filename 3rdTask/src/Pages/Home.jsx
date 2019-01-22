@@ -4,6 +4,7 @@ import {withRouter} from 'react-router-dom'
 import UserCard from '../Components.jsx/UserCard';
 
 const Home = (state) =>{
+    console.log(state.state);
     return(
         <div> 
             <p>
@@ -11,6 +12,7 @@ const Home = (state) =>{
             </p>
             <div className = 'cardHolder'>
                 {state.state.map((index, key) => {
+                    console.log(index);
                 return(
                     <UserCard name={index.name} img = {index.img[0]} id={key} />
                 )

@@ -11,8 +11,8 @@ const Routes = () => (
   <Router history = {newHistory}>
     <Switch>
       <Route exact path={'/user/:userId'} component={UsersContainer}/>
-      <Route exact path={'new-user'} component={NewUser}/>
-      <Route exact path={''} component={Home} />
+      <Route exact path={'/new-user'} component={NewUser}/>
+      <Route path={''} component={Home} />
     </Switch>
   </Router>
 );
