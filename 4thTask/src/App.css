@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+head{
+  background-color: aqua
+}
+.container{
+  display:flex;
+
+}
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: aqua;
+}
+.ImageStyle{
+
+  max-height: 30vw;
+  min-height: 35vw;
+  max-width:35vw;
+  min-width: 30vw;
+  
+}
+p{
+  text-align: center;
+  background-color: burlywood;
+}
+.cardHolder{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
